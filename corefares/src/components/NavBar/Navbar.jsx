@@ -30,7 +30,7 @@ function Navbar() {
 
           <div className='hemburger-menu'>
             <Button variant="none" onClick={handleShow}>
-              <AiOutlineMenu/>
+              <AiOutlineMenu />
             </Button>
 
             <Offcanvas show={show} onHide={handleClose} placement='end'>
@@ -38,6 +38,9 @@ function Navbar() {
                 {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
               </Offcanvas.Header>
               <Offcanvas.Body>
+                <div className='hemburger-search-box'>
+                  <input className="nosubmit" type="search" placeholder="Search..." />
+                </div>
                 <ul className='hemburger-menu-ul'>
                   <li>Home</li>
                   <li>About US</li>

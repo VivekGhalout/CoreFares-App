@@ -3,12 +3,12 @@
   height: 100px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #DCDCDC;
+  border-bottom: 1px solid #dcdcdc;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .Navbar > div {
-  width: 80%;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@
 }
 
 .logo-box {
-  width: 18%;
+  width: 200px;
 }
 
 .search-box {
@@ -59,18 +59,24 @@ li:hover {
   display: none;
 }
 
+@media screen and (max-width: 1200px){
+  .Navbar > div {
+    width: 90%;
+  }
 
-@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
   .Navbar > div {
     width: 95%;
   }
 
-  .logo-box {
-    width: 20%;
+  .search-box {
+    width: 50%;
   }
 
   .search-box {
-    width: 50%;
+    display: none;
   }
 
   input.nosubmit {
@@ -90,12 +96,13 @@ li:hover {
     display: flex;
   }
 
-  .hemburger-menu-ul li{
+  .hemburger-menu-ul li {
     margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
   .Navbar {
     height: 70px;
   }

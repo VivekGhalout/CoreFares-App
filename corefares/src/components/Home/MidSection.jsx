@@ -1,4 +1,10 @@
 import React from 'react'
+import mission from '../../Assets/mission.jpg'
+import online_travel from '../../Assets/online_travel.png'
+import tour_operator from '../../Assets/tour_operator.png'
+import travel_agencies from '../../Assets/travel_agencies.png'
+import travel_management from '../../Assets/travel_management.png'
+import vision from '../../Assets/vision.jpg'
 
 function MidSection() {
     return (
@@ -10,7 +16,7 @@ function MidSection() {
                 <div>
                     <div className='best-fare-card'>
                         <div>
-                            <img src="http://corefares.com/wp-content/uploads/2021/08/4Box-04.png" alt="first" width={"100%"} />
+                            <img src={travel_management} alt="travel_management" width={"100%"} />
                         </div>
                         <div>
                             <h4>Travel Management Company</h4>
@@ -19,7 +25,7 @@ function MidSection() {
                     </div>
                     <div className='best-fare-card'>
                         <div>
-                            <img src="http://corefares.com/wp-content/uploads/2021/08/4Box-02.png" alt="sec" width={"100%"} />
+                            <img src={online_travel} alt="online_travel" width={"100%"} />
                         </div>
                         <div>
                             <h4>Online Travel Agency</h4>
@@ -28,7 +34,7 @@ function MidSection() {
                     </div>
                     <div className='best-fare-card'>
                         <div>
-                            <img src="http://corefares.com/wp-content/uploads/2021/08/4Box-03.png" alt="third" width={"100%"} />
+                            <img src={tour_operator} alt="tour_operator" width={"100%"} />
                         </div>
                         <div>
                             <h4>Tour Operators</h4>
@@ -37,7 +43,7 @@ function MidSection() {
                     </div>
                     <div className='best-fare-card'>
                         <div>
-                            <img src="http://corefares.com/wp-content/uploads/2021/08/4Box-01.png" alt="first" width={"100%"} />
+                            <img src={travel_agencies} alt="travel_agencies" width={"100%"} />
                         </div>
                         <div>
                             <h4>Travel Agencies</h4>
@@ -48,7 +54,7 @@ function MidSection() {
             </div>
             <div className='vision-box'>
                 <div>
-                    <img src="http://corefares.com/wp-content/uploads/2021/08/vision1-1.jpg" alt="vision" width={"100%"} />
+                    <img src={vision} alt="vision" width={"100%"} />
                 </div>
                 <div>
                     <h3>VISION</h3>
@@ -57,7 +63,7 @@ function MidSection() {
             </div>
             <div className='mission-box'>
                 <div>
-                    <img src="http://corefares.com/wp-content/uploads/2021/08/mission-1.jpg" alt="mission" width={"100%"} />
+                    <img src={mission} alt="mission" width={"100%"} />
                 </div>
                 <div>
                     <h3>MISSION</h3>
